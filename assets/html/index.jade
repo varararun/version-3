@@ -1,27 +1,26 @@
 doctype html
 html(lang="en")
-head
-  title Arun Varghese
-  link(rel="manifest", href="manifest.json")
-  link(rel="canonical", href="https://avarghese.me")
-  meta(charset="utf-8")
-  meta(http-equiv="X-UA-Compatible", content="IE=edge")
-  meta(name="apple-mobile-web-app-capable", content="yes")
-  meta(name="viewport", content="width=device-width, initial-scale=1")
-  meta(name="description", content="Arun Varghese Personal Website")
-  meta(content="I'm Arun Varghese", property="og:title")
-  meta(content="https://avarghese.me/resume", property="og:url")
-  meta(content="assets/img/previews/site-preview.png", property="og:image")
-  meta(content="I'm Arun Varghese", property="og:site_name")
-  meta(content="#engineer #husband #traveler", property="og:description")
-  meta(name="description", content="#engineer #husband #traveler")
-  include _stylesheets
-body
-  include _loader
-  include _nav
-  div.page-wrap
-    include _content
-  include _scripts
+  head
+    title Arun Varghese
+    link(rel="manifest", href="manifest.json")
+    link(rel="canonical", href="https://avarghese.me")
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(content="I'm Arun Varghese", property="og:title")
+    meta(content="https://avarghese.me/resume", property="og:url")
+    meta(content="assets/img/previews/site-preview.png", property="og:image")
+    meta(content="I'm Arun Varghese", property="og:site_name")
+    meta(content="#engineer #husband #traveler", property="og:description")
+    meta(name="description", content="#engineer #husband #traveler")
+    include _stylesheets
+  body
+    include _loader
+    include _nav
+    div.page-wrap
+      include _content
+    include _scripts
 
 
 

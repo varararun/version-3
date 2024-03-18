@@ -7,7 +7,7 @@ const filesToCache = [
     'favicon.ico',
     'assets/css/bundled.min.css',
     'assets/js/bundled.min.js',
-    'assets/img/512.png'
+    'assets/img/icons/icon.png'
 ];
 
 //install the sw
