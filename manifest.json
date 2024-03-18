@@ -1,0 +1,8 @@
+{
+    "short_name": "AV",
+    "name": "avarghese",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "theme_color": "#3367D6"
+}

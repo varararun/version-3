@@ -1,0 +1,10 @@
+{
+  "name": "avarghese",
+  "short_name": "AV",
+  "description": "Arun Varghese",
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone"
+}
