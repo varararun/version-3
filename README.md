@@ -6,8 +6,8 @@
 ### Run Development Environment on Your Local Machine
 
 ```bash
-$ git clone https://github.com/varararun/varararun.github.io.git
-$ cd varararun.github.io
+$ git clone https://github.com/varararun/version-3.io.git
+$ cd version-3
 $ nvm use
 $ npm start
 ```  
